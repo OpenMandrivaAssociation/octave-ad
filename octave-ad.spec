@@ -14,7 +14,7 @@ Url:		http://octave.sourceforge.net/ad/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Conflicts:	octave-forge <= 20090607
 Requires:	octave >= 3.0.0
-BuildRequires:	octave-devel >= 3.0.0
+BuildRequires:	octave-devel >= 3.0.0, GL-devel
 
 %description
 Automatic forward differentiation toolkit for Octave.
